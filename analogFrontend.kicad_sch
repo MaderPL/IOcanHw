@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "b32a839e-40b6-4f80-93f1-3ba3fca48d99")
 	(paper "A4")
 	(lib_symbols)
@@ -167,6 +167,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 127) (xy 114.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31f4c87-471a-4e36-980a-042a86afbd45")
+	)
+	(wire
+		(pts
 			(xy 114.3 58.42) (xy 121.92 58.42)
 		)
 		(stroke
@@ -174,6 +184,16 @@
 			(type default)
 		)
 		(uuid "bd60f8fa-a001-4ee3-b5a2-17a2cfdd061b")
+	)
+	(wire
+		(pts
+			(xy 152.4 127) (xy 144.78 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed9469a-07ca-4ee0-9941-2a044cdc38f5")
 	)
 	(wire
 		(pts
@@ -246,6 +266,17 @@
 			(justify right)
 		)
 		(uuid "38a29dea-5d7a-4bbe-9b21-a8f32620d025")
+	)
+	(hierarchical_label "BAT+"
+		(shape input)
+		(at 152.4 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c7fff01-4239-4692-aee0-a265b08b0f0c")
 	)
 	(hierarchical_label "MCU_AN2"
 		(shape output)
@@ -456,6 +487,17 @@
 		)
 		(uuid "f480b2e6-7d0e-4c8e-959e-f0ec821add98")
 	)
+	(hierarchical_label "MCU_BAT+"
+		(shape output)
+		(at 114.3 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f945a3b1-7bcb-4986-b927-26443b55d578")
+	)
 	(hierarchical_label "AN1"
 		(shape input)
 		(at 152.4 43.18 0)
@@ -480,11 +522,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0ba70738-19e1-4c6c-9b7f-53a2ec850cb9")
 		(property "Sheetname" "V Divider"
 			(at 121.92 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -494,12 +538,14 @@
 		)
 		(property "Sheetfile" "analogInDivider.kicad_sch"
 			(at 121.92 46.3046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "U_IN" input
@@ -543,11 +589,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "299fac73-51ba-45eb-95c6-17afc09a7e42")
 		(property "Sheetname" "V Divider5"
 			(at 121.92 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -557,12 +605,14 @@
 		)
 		(property "Sheetfile" "analogInDivider.kicad_sch"
 			(at 121.92 84.4046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "U_IN" input
@@ -606,11 +656,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "51f1308e-4f4c-43a7-aa1c-b503855ce8ca")
 		(property "Sheetname" "V Divider3"
 			(at 121.92 64.0584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -620,12 +672,14 @@
 		)
 		(property "Sheetfile" "analogInDivider.kicad_sch"
 			(at 121.92 69.1646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "U_IN" input
@@ -669,11 +723,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "5734a972-57e8-4c9e-9ee2-bf4e96c9ca49")
 		(property "Sheetname" "V Divider1"
 			(at 121.92 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,12 +739,14 @@
 		)
 		(property "Sheetfile" "analogInDivider.kicad_sch"
 			(at 121.92 53.9246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "U_IN" input
@@ -732,11 +790,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "738423dd-3a07-4853-9cb3-2a956c8095a6")
 		(property "Sheetname" "V Divider10"
 			(at 121.92 117.3984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -746,12 +806,14 @@
 		)
 		(property "Sheetfile" "analogInDivider.kicad_sch"
 			(at 121.92 122.5046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "U_IN" input
@@ -795,11 +857,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7d09007a-5b27-43b1-9d48-89f036d22fac")
 		(property "Sheetname" "V Divider7"
 			(at 121.92 94.5384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -809,12 +873,14 @@
 		)
 		(property "Sheetfile" "analogInDivider.kicad_sch"
 			(at 121.92 99.6446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "U_IN" input
@@ -858,11 +924,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "be0bc122-f6c9-4bb5-8870-f6d6b68f9d6a")
 		(property "Sheetname" "V Divider6"
 			(at 121.92 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,12 +940,14 @@
 		)
 		(property "Sheetfile" "analogInDivider.kicad_sch"
 			(at 121.92 92.0246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "U_IN" input
@@ -921,11 +991,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "bfc9d762-b060-420c-9640-4d11455f8c63")
 		(property "Sheetname" "V Divider2"
 			(at 121.92 56.4384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,12 +1007,14 @@
 		)
 		(property "Sheetfile" "analogInDivider.kicad_sch"
 			(at 121.92 61.5446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "U_IN" input
@@ -972,6 +1046,73 @@
 		)
 	)
 	(sheet
+		(at 121.92 125.73)
+		(size 22.86 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c1ed93d1-eb2e-48aa-abad-87b6f69815f5")
+		(property "Sheetname" "V Divider11"
+			(at 121.92 125.0184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analogInDivider.kicad_sch"
+			(at 121.92 130.1246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "U_IN" input
+			(at 144.78 127 0)
+			(uuid "8d659c2c-580c-4bd8-a079-c6b2c8609bcf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U_OUT" output
+			(at 121.92 127 180)
+			(uuid "e87ee1ec-3ca2-468f-9965-4f5c42147a40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 121.92 102.87)
 		(size 22.86 3.81)
 		(exclude_from_sim no)
@@ -984,11 +1125,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "c3ccc198-0fa0-4994-97e1-ecc479aa1af1")
 		(property "Sheetname" "V Divider8"
 			(at 121.92 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -998,12 +1141,14 @@
 		)
 		(property "Sheetfile" "analogInDivider.kicad_sch"
 			(at 121.92 107.2646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "U_IN" input
@@ -1047,11 +1192,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e42d14d6-949a-49a7-a63d-163fe7826dd0")
 		(property "Sheetname" "V Divider4"
 			(at 121.92 71.6784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,12 +1208,14 @@
 		)
 		(property "Sheetfile" "analogInDivider.kicad_sch"
 			(at 121.92 76.7846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "U_IN" input
@@ -1110,11 +1259,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ee48feb7-f465-4d5c-b160-f4fe921efa2b")
 		(property "Sheetname" "V Divider9"
 			(at 121.92 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,12 +1275,14 @@
 		)
 		(property "Sheetfile" "analogInDivider.kicad_sch"
 			(at 121.92 114.8846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "U_IN" input

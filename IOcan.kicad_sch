@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "6f45ac2a-5758-484d-9640-5d55da88e919")
 	(paper "A3")
 	(lib_symbols)
@@ -28,6 +28,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2645ec2c-d3aa-4966-a06e-ecc7a2c62ab9")
+	)
+	(junction
+		(at 290.83 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69b29bdc-378e-4c3b-a9ce-987dee7164ce")
 	)
 	(junction
 		(at 339.09 104.14)
@@ -132,6 +138,16 @@
 			(type default)
 		)
 		(uuid "06f45cad-f289-457d-a887-f2526c78687c")
+	)
+	(wire
+		(pts
+			(xy 325.12 93.98) (xy 325.12 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b552204-4202-4b65-8501-fdb35b654395")
 	)
 	(wire
 		(pts
@@ -262,6 +278,16 @@
 			(type default)
 		)
 		(uuid "1f5d519f-7202-4a8c-8be1-fc847b1a00e4")
+	)
+	(wire
+		(pts
+			(xy 325.12 87.63) (xy 290.83 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2161aeed-3f18-40cf-9948-fa206c8aba31")
 	)
 	(wire
 		(pts
@@ -412,6 +438,16 @@
 			(type default)
 		)
 		(uuid "47e1a9f5-2772-41d9-9900-e323dca7eec6")
+	)
+	(wire
+		(pts
+			(xy 290.83 87.63) (xy 290.83 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a723c2-8ce7-43f2-9a86-41a3ceb6ca89")
 	)
 	(wire
 		(pts
@@ -935,6 +971,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 93.98) (xy 325.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c68424-8d7e-4bb3-88e8-c6928732970b")
+	)
+	(wire
+		(pts
 			(xy 284.48 139.7) (xy 294.64 139.7)
 		)
 		(stroke
@@ -1176,11 +1222,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0263721a-e9b1-4994-8b91-6c2e558bbe66")
 		(property "Sheetname" "spiToCan2"
 			(at 250.19 227.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,12 +1238,14 @@
 		)
 		(property "Sheetfile" "spiToCan.kicad_sch"
 			(at 250.19 246.9646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "CAN.INT" output
@@ -1289,11 +1339,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "06a6f76d-a9c6-49d7-ab3d-12289a0e20dc")
 		(property "Sheetname" "canbus1"
 			(at 297.18 159.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,12 +1355,14 @@
 		)
 		(property "Sheetfile" "canbus.kicad_sch"
 			(at 297.18 178.3846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "CAN.H" input
@@ -1392,11 +1446,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0ec49328-f631-43bb-b235-5eaa1c1b4075")
 		(property "Sheetname" "canbus4"
 			(at 297.18 227.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,12 +1462,14 @@
 		)
 		(property "Sheetfile" "canbus.kicad_sch"
 			(at 297.18 246.9646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "CAN.H" input
@@ -1484,7 +1542,7 @@
 	)
 	(sheet
 		(at 297.18 60.96)
-		(size 25.4 25.4)
+		(size 25.4 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1495,11 +1553,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "17b8636c-2203-4a21-8177-35bf6e1db2c9")
 		(property "Sheetname" "Digital Outputs"
 			(at 297.18 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,13 +1568,15 @@
 			)
 		)
 		(property "Sheetfile" "digitalOutputs.kicad_sch"
-			(at 297.18 86.9446 0)
+			(at 297.18 84.4046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "ENABLE" input
@@ -1668,11 +1730,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "1dc76b03-27e6-4dbb-b683-b95a093ce57a")
 		(property "Sheetname" "spiToCan1"
 			(at 250.19 205.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,12 +1746,14 @@
 		)
 		(property "Sheetfile" "spiToCan.kicad_sch"
 			(at 250.19 224.1046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "CAN.INT" output
@@ -1781,11 +1847,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "2c3dc8a8-aab0-493c-bfa2-c93814ba3e5f")
 		(property "Sheetname" "USB"
 			(at 63.5 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,12 +1863,14 @@
 		)
 		(property "Sheetfile" "USB.kicad_sch"
 			(at 63.5 104.7246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "USB.D+" input
@@ -1854,11 +1924,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3008575d-c7ff-4322-a3b5-0359077271f4")
 		(property "Sheetname" "Frequency input"
 			(at 259.08 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,15 +1940,17 @@
 		)
 		(property "Sheetfile" "freq in.kicad_sch"
 			(at 259.08 158.0646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(pin "SPI.CLK" output
+		(pin "SPI.CLK" input
 			(at 259.08 149.86 180)
 			(uuid "5fbdf458-d830-4694-87ec-d58e17a960dc")
 			(effects
@@ -1886,7 +1960,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPI.CS" output
+		(pin "SPI.CS" input
 			(at 259.08 147.32 180)
 			(uuid "df7fb68e-c1ee-4cb0-a794-22f4f10c32b6")
 			(effects
@@ -1906,7 +1980,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPI.MOSI" output
+		(pin "SPI.MOSI" input
 			(at 259.08 152.4 180)
 			(uuid "c38f0b16-c7c0-4fa8-a5bf-e00552e8865b")
 			(effects
@@ -1916,7 +1990,7 @@
 				(justify left)
 			)
 		)
-		(pin "FREQ1,OUT" input
+		(pin "FREQ1,OUT" output
 			(at 259.08 134.62 180)
 			(uuid "8490a23f-b49a-43e4-8e82-a6bf32bec5eb")
 			(effects
@@ -1946,7 +2020,7 @@
 				(justify right)
 			)
 		)
-		(pin "FREQ2.OUT" input
+		(pin "FREQ2.OUT" output
 			(at 259.08 139.7 180)
 			(uuid "19b03672-0fb4-42d1-b826-a15c8a9780a2")
 			(effects
@@ -1966,7 +2040,7 @@
 				(justify right)
 			)
 		)
-		(pin "FREQ3.OUT" input
+		(pin "FREQ3.OUT" output
 			(at 259.08 142.24 180)
 			(uuid "1f255f2f-16ae-4a33-bbef-72166429a458")
 			(effects
@@ -1986,7 +2060,7 @@
 				(justify right)
 			)
 		)
-		(pin "FREQ4.OUT" input
+		(pin "FREQ4.OUT" output
 			(at 259.08 137.16 180)
 			(uuid "02252729-b5e6-4782-a44c-cd2c5db0fe6a")
 			(effects
@@ -2017,11 +2091,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "396bf243-1a46-458f-b7f4-3d14796ab7d2")
 		(property "Sheetname" "interface"
 			(at 350.52 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,12 +2107,14 @@
 		)
 		(property "Sheetfile" "interface.kicad_sch"
 			(at 350.52 246.9646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "AN1_PWR1" bidirectional
@@ -2289,7 +2367,7 @@
 	)
 	(sheet
 		(at 190.5 22.86)
-		(size 81.28 17.78)
+		(size 63.5 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2300,11 +2378,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "435c7102-384c-42ad-bc8b-0c639ec4898f")
 		(property "Sheetname" "Supply"
 			(at 190.5 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,12 +2394,14 @@
 		)
 		(property "Sheetfile" "supply.kicad_sch"
 			(at 190.5 41.2246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(instances
@@ -2343,11 +2425,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "49e52cb0-2508-497c-ae84-c04142a4ff5d")
 		(property "Sheetname" "MCU"
 			(at 134.62 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,12 +2441,14 @@
 		)
 		(property "Sheetfile" "mcuAtsamV71q21b.kicad_sch"
 			(at 134.62 246.9646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "USB.D+" bidirectional
@@ -2756,11 +2842,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "4ee3a43a-5a11-4ee3-b5c5-42ab3d59c9e4")
 		(property "Sheetname" "canbus2"
 			(at 297.18 182.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,12 +2858,14 @@
 		)
 		(property "Sheetfile" "canbus.kicad_sch"
 			(at 297.18 201.2446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "CAN.H" input
@@ -2859,11 +2949,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "57621f42-aed7-4d46-a5ea-c12a1f245285")
 		(property "Sheetname" "Reverse polarity protection"
 			(at 297.18 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,12 +2965,14 @@
 		)
 		(property "Sheetfile" "reversePolarityProtection.kicad_sch"
 			(at 297.18 31.0646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "BAT+" input
@@ -2922,11 +3016,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "67a158a4-7866-4964-bce6-5c37b22fcdee")
 		(property "Sheetname" "KL30B supply"
 			(at 297.18 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,12 +3032,14 @@
 		)
 		(property "Sheetfile" "kl30bSupply.kicad_sch"
 			(at 297.18 56.4646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "KL30.DEN" input
@@ -3025,11 +3123,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d6b5e708-7140-4f02-bc93-f8e164db9146")
 		(property "Sheetname" "Analog Frontend"
 			(at 297.18 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,12 +3139,14 @@
 		)
 		(property "Sheetfile" "analogFrontend.kicad_sch"
 			(at 297.18 125.0446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "AN1" input
@@ -3267,6 +3369,26 @@
 				(justify left)
 			)
 		)
+		(pin "BAT+" input
+			(at 322.58 93.98 0)
+			(uuid "484228b6-5347-490b-acc7-d4234312a8e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_BAT+" output
+			(at 297.18 93.98 180)
+			(uuid "5a63ae68-1631-4b3e-aa32-40d3cae35f02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "IOcan"
 				(path "/6f45ac2a-5758-484d-9640-5d55da88e919"
@@ -3288,11 +3410,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e9135631-3558-4739-abfe-61e32f478930")
 		(property "Sheetname" "canbus3"
 			(at 297.18 205.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,12 +3426,14 @@
 		)
 		(property "Sheetfile" "canbus.kicad_sch"
 			(at 297.18 224.1046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "CAN.H" input

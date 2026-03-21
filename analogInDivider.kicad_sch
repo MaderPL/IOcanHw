@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "15a0871e-37ea-4ed0-a366-51a5fe56bff2")
 	(paper "A4")
 	(lib_symbols
@@ -15,8 +15,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,6 +30,8 @@
 			)
 			(property "Value" "C"
 				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -35,47 +41,57 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_0_1"
@@ -108,7 +124,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -126,7 +142,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -155,8 +171,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -165,6 +185,8 @@
 			)
 			(property "Value" "R_Small"
 				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -173,47 +195,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_Small_0_1"
@@ -233,7 +265,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -251,7 +283,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 0.762)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -270,7 +302,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:VSS"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -281,17 +313,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "VSS"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -300,38 +338,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"VSS\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "VSS_0_1"
@@ -364,7 +410,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -485,13 +531,17 @@
 		(lib_id "Device:R_Small")
 		(at 144.78 93.98 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "027bf41c-d8e4-4ed5-b0e9-15d94c9b0a96")
 		(property "Reference" "R38"
 			(at 146.558 94.996 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -501,46 +551,54 @@
 		)
 		(property "Value" "10k"
 			(at 141.478 88.392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.78 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 144.78 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 144.78 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "5d3f0bcd-7e71-44a1-8a46-4025c139e8df")
+			(uuid "5a6adc58-8cf4-4faa-81ad-23d0f8fdd99f")
 		)
 		(pin "2"
-			(uuid "515e0630-445e-4033-a41f-1ac54b4a44f7")
+			(uuid "527a326b-0332-4158-b2b4-da241c887236")
 		)
 		(instances
 			(project "IOcan"
@@ -576,6 +634,10 @@
 					(reference "R42")
 					(unit 1)
 				)
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146/c1ed93d1-eb2e-48aa-abad-87b6f69815f5"
+					(reference "R68")
+					(unit 1)
+				)
 				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146/c3ccc198-0fa0-4994-97e1-ecc479aa1af1"
 					(reference "R54")
 					(unit 1)
@@ -595,13 +657,17 @@
 		(lib_id "Device:R_Small")
 		(at 144.78 81.28 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "538ac685-b157-4cbd-82b7-46936122415a")
 		(property "Reference" "R37"
 			(at 146.558 82.296 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -611,46 +677,54 @@
 		)
 		(property "Value" "10k"
 			(at 141.478 75.692 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.78 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 144.78 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 144.78 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "08ef2124-7d1b-49fc-91e1-1d7c018e951f")
+			(uuid "8acac6e4-a332-4804-9d9d-93eb2a063f19")
 		)
 		(pin "2"
-			(uuid "1272c04e-b6f3-40b9-b114-1902322f9e62")
+			(uuid "c0059931-553c-445c-9d82-b20c11e1f2f6")
 		)
 		(instances
 			(project "IOcan"
@@ -686,6 +760,10 @@
 					(reference "R41")
 					(unit 1)
 				)
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146/c1ed93d1-eb2e-48aa-abad-87b6f69815f5"
+					(reference "R67")
+					(unit 1)
+				)
 				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146/c3ccc198-0fa0-4994-97e1-ecc479aa1af1"
 					(reference "R53")
 					(unit 1)
@@ -705,23 +783,29 @@
 		(lib_id "power:VSS")
 		(at 144.78 96.52 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be11d88e-381e-42f7-b19a-dc8bcfb47968")
 		(property "Reference" "#PWR081"
 			(at 144.78 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VSS"
 			(at 144.78 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -730,33 +814,39 @@
 		)
 		(property "Footprint" ""
 			(at 144.78 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 144.78 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
 			(at 144.78 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "f4f99395-c76c-4f0a-844d-c1e3f9c3289a")
+			(uuid "2899e818-08a6-43fc-9df4-a58eaba5fc61")
 		)
 		(instances
 			(project "IOcan"
@@ -792,6 +882,10 @@
 					(reference "#PWR085")
 					(unit 1)
 				)
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146/c1ed93d1-eb2e-48aa-abad-87b6f69815f5"
+					(reference "#PWR0111")
+					(unit 1)
+				)
 				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146/c3ccc198-0fa0-4994-97e1-ecc479aa1af1"
 					(reference "#PWR097")
 					(unit 1)
@@ -811,14 +905,18 @@
 		(lib_id "Device:C")
 		(at 152.4 93.98 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cca78183-cd79-4ecc-864e-0ab17b2fe157")
 		(property "Reference" "C53"
 			(at 156.21 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,6 +926,8 @@
 		)
 		(property "Value" "100n"
 			(at 156.21 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,36 +937,42 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.3652 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 152.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 152.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "e500d8c2-8694-4d22-ad1f-66e907c6791f")
+			(uuid "a9ccbc0b-7992-432c-b113-c1b4855562fd")
 		)
 		(pin "1"
-			(uuid "bfe17a93-f4b9-4984-8d45-3d9059402f3f")
+			(uuid "9ff0a2ca-9d7a-4499-9152-7388477572b5")
 		)
 		(instances
 			(project "IOcan"
@@ -902,6 +1008,10 @@
 					(reference "C55")
 					(unit 1)
 				)
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146/c1ed93d1-eb2e-48aa-abad-87b6f69815f5"
+					(reference "C67")
+					(unit 1)
+				)
 				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146/c3ccc198-0fa0-4994-97e1-ecc479aa1af1"
 					(reference "C61")
 					(unit 1)
@@ -921,23 +1031,29 @@
 		(lib_id "power:VSS")
 		(at 152.4 97.79 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd5cfa70-1a4f-42dd-a487-e81dbbb0e5f6")
 		(property "Reference" "#PWR082"
 			(at 152.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VSS"
 			(at 152.4 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,33 +1062,39 @@
 		)
 		(property "Footprint" ""
 			(at 152.4 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 152.4 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
 			(at 152.4 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "b07f9501-ede6-4990-8bad-3e3dee281c4d")
+			(uuid "1ab1edf7-3e70-4bb2-942d-44509094f855")
 		)
 		(instances
 			(project "IOcan"
@@ -1006,6 +1128,10 @@
 				)
 				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146/bfc9d762-b060-420c-9640-4d11455f8c63"
 					(reference "#PWR086")
+					(unit 1)
+				)
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146/c1ed93d1-eb2e-48aa-abad-87b6f69815f5"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146/c3ccc198-0fa0-4994-97e1-ecc479aa1af1"
