@@ -4805,6 +4805,12 @@
 		(uuid "914a55b2-b51b-48c4-88fe-ce05195ddaa1")
 	)
 	(junction
+		(at 177.8 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "980f5372-ee56-492d-9233-52ce9a59569b")
+	)
+	(junction
 		(at 88.9 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5034,6 +5040,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 114.3) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116d2d4a-a279-4a44-a3d0-4fa83e56659b")
+	)
+	(wire
+		(pts
 			(xy 144.78 31.75) (xy 151.13 31.75)
 		)
 		(stroke
@@ -5124,6 +5140,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 114.3) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d82531-3b4d-4e28-af80-0f12308bb51c")
+	)
+	(wire
+		(pts
 			(xy 77.47 157.48) (xy 88.9 157.48)
 		)
 		(stroke
@@ -5201,6 +5227,16 @@
 			(type default)
 		)
 		(uuid "2ed02ca2-f263-49a7-9926-cf78411a9fb7")
+	)
+	(wire
+		(pts
+			(xy 177.8 111.76) (xy 181.61 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31083627-31ad-4940-b9e2-4cbf91b735fd")
 	)
 	(wire
 		(pts
@@ -5454,7 +5490,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 111.76) (xy 165.1 111.76)
+			(xy 149.86 111.76) (xy 177.8 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5564,6 +5600,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 170.18) (xy 88.9 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7148c3d5-d16c-476f-b654-6509a6611f77")
+	)
+	(wire
+		(pts
 			(xy 80.01 180.34) (xy 88.9 180.34)
 		)
 		(stroke
@@ -5631,6 +5677,16 @@
 			(type default)
 		)
 		(uuid "782c6ca4-33b3-4c5f-a631-d9cf17fae044")
+	)
+	(wire
+		(pts
+			(xy 181.61 73.66) (xy 149.86 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a30c3b2-7e00-4589-b2ce-bfc68c6ec2f9")
 	)
 	(wire
 		(pts
@@ -5741,6 +5797,16 @@
 			(type default)
 		)
 		(uuid "820232b8-b3a8-4b7f-92ef-ea133605d43a")
+	)
+	(wire
+		(pts
+			(xy 69.85 91.44) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d2d1c7-dc3e-4a31-8c3e-90a73443c2a1")
 	)
 	(wire
 		(pts
@@ -6094,6 +6160,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 81.28) (xy 163.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc77ae87-a3e1-4bf6-93c4-495ae3e12392")
+	)
+	(wire
+		(pts
 			(xy 170.18 24.13) (xy 176.53 24.13)
 		)
 		(stroke
@@ -6231,6 +6307,16 @@
 			(type default)
 		)
 		(uuid "d5bb3cb1-6f8c-4315-a292-29a211d1288c")
+	)
+	(wire
+		(pts
+			(xy 72.39 177.8) (xy 88.9 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73aef57-d61e-40f5-8b73-63280ebbbe36")
 	)
 	(wire
 		(pts
@@ -6969,6 +7055,17 @@
 		)
 		(uuid "34c0e16e-ee2a-4ff0-93a6-8eddf0d7baeb")
 	)
+	(hierarchical_label "MCU.FREQ5"
+		(shape input)
+		(at 181.61 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38a730be-679f-42dc-8148-eec82089da3f")
+	)
 	(hierarchical_label "MCU.AN0"
 		(shape input)
 		(at 158.75 213.36 0)
@@ -7037,12 +7134,12 @@
 	)
 	(hierarchical_label "MCU.FREQ2"
 		(shape input)
-		(at 182.88 121.92 0)
+		(at 72.39 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4fe3db25-fd83-4ca2-8749-27e8efe6e440")
 	)
@@ -7092,7 +7189,7 @@
 	)
 	(hierarchical_label "MCU.FREQ1"
 		(shape input)
-		(at 182.88 119.38 0)
+		(at 163.83 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7114,12 +7211,12 @@
 	)
 	(hierarchical_label "MCU.FREQ4"
 		(shape input)
-		(at 182.88 127 0)
+		(at 69.85 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6241abaf-c21b-4201-8e81-fd84b467c96a")
 	)
@@ -7222,6 +7319,17 @@
 		)
 		(uuid "7c625d36-bd4f-4f38-86f3-28b92e6fe259")
 	)
+	(hierarchical_label "MCU.FREQ0"
+		(shape input)
+		(at 181.61 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d0bb444-4551-42e1-84a3-c16e120d4982")
+	)
 	(hierarchical_label "CAN2.TERMINATION"
 		(shape output)
 		(at 171.45 58.42 0)
@@ -7268,12 +7376,12 @@
 	)
 	(hierarchical_label "MCU.FREQ3"
 		(shape input)
-		(at 182.88 124.46 0)
+		(at 72.39 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "94602ab1-836d-4605-971f-76697e837fd3")
 	)
@@ -7312,7 +7420,7 @@
 	)
 	(hierarchical_label "ENABLE.5V"
 		(shape output)
-		(at 165.1 111.76 0)
+		(at 181.61 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -12,12 +12,6 @@
 		(uuid "00329801-5eda-4bf0-b501-a7586feb81a1")
 	)
 	(junction
-		(at 229.87 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16d07ff5-858f-423a-9dd6-bdf8b631a3db")
-	)
-	(junction
 		(at 344.17 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -28,6 +22,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2645ec2c-d3aa-4966-a06e-ecc7a2c62ab9")
+	)
+	(junction
+		(at 232.41 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b7f591d-1be9-4ee3-8f3c-3436497a84ad")
+	)
+	(junction
+		(at 229.87 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e635a4b-d1d1-43b3-a03a-f4395a69371d")
 	)
 	(junction
 		(at 290.83 63.5)
@@ -46,12 +52,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e381486-aa4f-4f89-88fb-6e35adfa846b")
-	)
-	(junction
-		(at 227.33 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "779b515b-f026-46e2-8206-b19084c5b41f")
 	)
 	(junction
 		(at 261.62 27.94)
@@ -90,16 +90,16 @@
 		(uuid "c1eac982-8b0d-45aa-a355-ac3015379f65")
 	)
 	(junction
-		(at 232.41 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5d55abb-6192-4beb-ac69-d230d27aee14")
-	)
-	(junction
 		(at 336.55 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f475ea78-c659-4052-870d-e9343cf1a519")
+	)
+	(junction
+		(at 227.33 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc4be49b-3fd2-46cf-815d-c1fd969089f1")
 	)
 	(wire
 		(pts
@@ -123,6 +123,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 134.62) (xy 167.64 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021359e7-ad80-4d27-bda7-a2c913f92762")
+	)
+	(wire
+		(pts
 			(xy 285.75 254) (xy 285.75 218.44)
 		)
 		(stroke
@@ -140,6 +150,16 @@
 			(type default)
 		)
 		(uuid "0336ace3-a2d4-41f5-bdc8-7fc545232de9")
+	)
+	(wire
+		(pts
+			(xy 259.08 137.16) (xy 176.53 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037b4af8-37b6-4f94-9716-dc2889b28e54")
 	)
 	(wire
 		(pts
@@ -240,6 +260,16 @@
 			(type default)
 		)
 		(uuid "0fa7c825-49ab-49cb-b5dc-acf1986c56db")
+	)
+	(wire
+		(pts
+			(xy 179.07 144.78) (xy 179.07 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fda0343-e72e-4089-b39c-ade1737dd246")
 	)
 	(wire
 		(pts
@@ -353,6 +383,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 142.24) (xy 167.64 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ceaa06a-c112-4160-a24c-1effb8fe553a")
+	)
+	(wire
+		(pts
 			(xy 227.33 152.4) (xy 259.08 152.4)
 		)
 		(stroke
@@ -380,6 +420,16 @@
 			(type default)
 		)
 		(uuid "2161aeed-3f18-40cf-9948-fa206c8aba31")
+	)
+	(wire
+		(pts
+			(xy 176.53 137.16) (xy 176.53 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "228ca188-11f2-426b-8b59-cbb0eb1abb8c")
 	)
 	(wire
 		(pts
@@ -420,6 +470,16 @@
 			(type default)
 		)
 		(uuid "27adaafe-dd02-4683-8a0d-2cda3a6fe9d8")
+	)
+	(wire
+		(pts
+			(xy 181.61 139.7) (xy 181.61 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1dd6ba-e2f4-4d5e-827a-e802e669092c")
 	)
 	(wire
 		(pts
@@ -470,6 +530,16 @@
 			(type default)
 		)
 		(uuid "2e965e02-2038-4fd0-8c5d-33790aad88f6")
+	)
+	(wire
+		(pts
+			(xy 259.08 142.24) (xy 200.66 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3012b10f-6a9a-4c41-98d2-29bf7f413340")
 	)
 	(wire
 		(pts
@@ -763,6 +833,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 140.97) (xy 173.99 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d817293-37ca-4194-a508-08f25988ea7f")
+	)
+	(wire
+		(pts
 			(xy 167.64 208.28) (xy 234.95 208.28)
 		)
 		(stroke
@@ -833,6 +913,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 134.62) (xy 259.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ca0137-9920-4924-b3ad-36f7b5ea941e")
+	)
+	(wire
+		(pts
 			(xy 232.41 149.86) (xy 232.41 210.82)
 		)
 		(stroke
@@ -893,6 +983,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 142.24) (xy 200.66 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b72b4d-73c0-45d3-8870-421a84fe9d30")
+	)
+	(wire
+		(pts
 			(xy 322.58 104.14) (xy 339.09 104.14)
 		)
 		(stroke
@@ -940,6 +1040,16 @@
 			(type default)
 		)
 		(uuid "763e46d8-86b2-4efd-9b19-a81571fbfece")
+	)
+	(wire
+		(pts
+			(xy 173.99 139.7) (xy 167.64 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2adbb6-a45f-4383-a490-e80da299e836")
 	)
 	(wire
 		(pts
@@ -1233,6 +1343,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 140.97) (xy 173.99 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7abedf2-45d3-4f44-8106-4ee84d9ba934")
+	)
+	(wire
+		(pts
 			(xy 234.95 231.14) (xy 234.95 208.28)
 		)
 		(stroke
@@ -1443,6 +1563,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 139.7) (xy 181.61 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca22cb1b-8dec-47db-87cf-f00e6eb2115d")
+	)
+	(wire
+		(pts
 			(xy 114.3 17.78) (xy 114.3 86.36)
 		)
 		(stroke
@@ -1510,6 +1640,16 @@
 			(type default)
 		)
 		(uuid "d5ff2f8b-2194-4229-905c-965b76cd8a33")
+	)
+	(wire
+		(pts
+			(xy 167.64 144.78) (xy 179.07 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d69b3177-1bde-4760-b835-3b9bfd6b2076")
 	)
 	(wire
 		(pts
@@ -2533,7 +2673,7 @@
 			)
 		)
 		(pin "FREQ2.OUT" output
-			(at 259.08 139.7 180)
+			(at 259.08 137.16 180)
 			(uuid "19b03672-0fb4-42d1-b826-a15c8a9780a2")
 			(effects
 				(font
@@ -2553,7 +2693,7 @@
 			)
 		)
 		(pin "FREQ3.OUT" output
-			(at 259.08 142.24 180)
+			(at 259.08 139.7 180)
 			(uuid "1f255f2f-16ae-4a33-bbef-72166429a458")
 			(effects
 				(font
@@ -2573,7 +2713,7 @@
 			)
 		)
 		(pin "FREQ4.OUT" output
-			(at 259.08 137.16 180)
+			(at 259.08 142.24 180)
 			(uuid "02252729-b5e6-4782-a44c-cd2c5db0fe6a")
 			(effects
 				(font
@@ -3672,6 +3812,26 @@
 		(pin "CAN2.TERMINATION" output
 			(at 167.64 193.04 0)
 			(uuid "d89007af-5993-4e77-8716-31ed6ac45cc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU.FREQ0" input
+			(at 167.64 132.08 0)
+			(uuid "d4fd0ff7-6d02-4331-8544-e22d793503ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU.FREQ5" input
+			(at 167.64 144.78 0)
+			(uuid "b0a6de20-b731-4762-9a37-ac5ab91b3c7d")
 			(effects
 				(font
 					(size 1.27 1.27)

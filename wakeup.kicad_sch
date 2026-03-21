@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "06b72b16-b576-4575-af4f-18e068a271b4")
+	(uuid "d7a0ebcc-9a45-4f24-92cc-8755157943d6")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Diode:PMEG2010ER"
