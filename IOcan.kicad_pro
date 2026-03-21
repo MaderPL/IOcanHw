@@ -646,7 +646,7 @@
         "uuid": "6f45ac2a-5758-484d-9640-5d55da88e919"
       }
     ],
-    "used_designators": "R59-68,#PWR103-112,C64-67",
+    "used_designators": "C68-94,R10k1,IC11,R69-84,L2,#PWR113-154,U6,Q8-9,D3",
     "variants": []
   },
   "sheets": [
@@ -769,6 +769,26 @@
     [
       "c1ed93d1-eb2e-48aa-abad-87b6f69815f5",
       "V Divider11"
+    ],
+    [
+      "69ee13cd-10f6-4c62-a123-d04bbe35b1c7",
+      "Buck converter 3.3V"
+    ],
+    [
+      "5e2af641-8d6e-46e9-b33e-c54f630cef5f",
+      "Buck converter 5V"
+    ],
+    [
+      "43e1bae8-41c3-4eda-b103-a7e45a9a07cb",
+      "Wakeup"
+    ],
+    [
+      "58d8c796-7d23-43a4-b034-5ee6a47bbde7",
+      "Wakeup Channel"
+    ],
+    [
+      "6cb691e5-44d7-4302-bb95-328a22eea2a7",
+      "Wakeup Channel1"
     ]
   ],
   "text_variables": {},
