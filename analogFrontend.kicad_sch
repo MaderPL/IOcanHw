@@ -1,0 +1,1163 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b32a839e-40b6-4f80-93f1-3ba3fca48d99")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 114.3 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d5d5f1-7b3b-4fd5-9b4d-7057dad56446")
+	)
+	(wire
+		(pts
+			(xy 114.3 66.04) (xy 121.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f721acf-85be-4420-b13c-8b3544246084")
+	)
+	(wire
+		(pts
+			(xy 114.3 81.28) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33410b72-af41-46d1-9d43-b991ab6a6a2e")
+	)
+	(wire
+		(pts
+			(xy 144.78 66.04) (xy 152.4 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353d688a-020d-4afe-a182-6c9cac7c2b4f")
+	)
+	(wire
+		(pts
+			(xy 144.78 96.52) (xy 152.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d11afad-849e-47e6-903a-0593918a56df")
+	)
+	(wire
+		(pts
+			(xy 144.78 58.42) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d17b24-1f46-4078-8b5d-c605d3399062")
+	)
+	(wire
+		(pts
+			(xy 144.78 50.8) (xy 152.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45424624-2098-43b3-b0f4-4c3187545e4a")
+	)
+	(wire
+		(pts
+			(xy 144.78 104.14) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47daa0f2-d1f9-45be-be7c-cfb48be12b5d")
+	)
+	(wire
+		(pts
+			(xy 114.3 96.52) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52640ba8-94ea-4643-88b3-2939a9040dfd")
+	)
+	(wire
+		(pts
+			(xy 144.78 111.76) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ef1fb2-58f5-4506-89b5-122f3c26a491")
+	)
+	(wire
+		(pts
+			(xy 114.3 50.8) (xy 121.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d2dc4c-6a9e-4785-b115-c8cd1e2776bf")
+	)
+	(wire
+		(pts
+			(xy 144.78 73.66) (xy 152.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687e0b01-be59-4a3b-a35d-98b7863bddf4")
+	)
+	(wire
+		(pts
+			(xy 144.78 81.28) (xy 152.4 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7161db11-6564-4c2c-b0db-f7e2ccaade41")
+	)
+	(wire
+		(pts
+			(xy 152.4 119.38) (xy 144.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2bf69a-f5b1-4885-a6e2-29485e27fa80")
+	)
+	(wire
+		(pts
+			(xy 121.92 119.38) (xy 114.3 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cac1d1-5bf5-4ac7-8a97-dd35d4872561")
+	)
+	(wire
+		(pts
+			(xy 114.3 111.76) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae844f13-e21a-4957-9a35-74d150377454")
+	)
+	(wire
+		(pts
+			(xy 114.3 58.42) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd60f8fa-a001-4ee3-b5a2-17a2cfdd061b")
+	)
+	(wire
+		(pts
+			(xy 114.3 43.18) (xy 121.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfbd8b0a-a6b6-43c9-800c-335ff3aab373")
+	)
+	(wire
+		(pts
+			(xy 144.78 43.18) (xy 152.4 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1cb713-7292-442c-8ef8-c77b8933de35")
+	)
+	(wire
+		(pts
+			(xy 114.3 104.14) (xy 121.92 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da62f62c-8d9f-4837-a0ff-ceefb413a541")
+	)
+	(wire
+		(pts
+			(xy 114.3 73.66) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c051a9-1c8e-43b1-b543-a0aef06c1ec3")
+	)
+	(wire
+		(pts
+			(xy 144.78 88.9) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa5cb91c-9922-4573-ba53-63440df06d00")
+	)
+	(hierarchical_label "AN9"
+		(shape input)
+		(at 152.4 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b8df8eb-5a53-43d2-9fd0-055bfb6c7a46")
+	)
+	(hierarchical_label "MCU_AN9"
+		(shape output)
+		(at 114.3 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38a29dea-5d7a-4bbe-9b21-a8f32620d025")
+	)
+	(hierarchical_label "MCU_AN2"
+		(shape output)
+		(at 114.3 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c83b82b-c271-4ef2-add0-1bc2faab9b34")
+	)
+	(hierarchical_label "MCU_AN10"
+		(shape output)
+		(at 114.3 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6abe5dea-907f-42a0-8c10-1b63ba01b318")
+	)
+	(hierarchical_label "MCU_AN7"
+		(shape output)
+		(at 114.3 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72ff69a8-157c-46a1-887e-d3f07fe56392")
+	)
+	(hierarchical_label "AN6"
+		(shape input)
+		(at 152.4 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "750d7df8-4289-4b80-8adc-ff5bb0c2e8d6")
+	)
+	(hierarchical_label "MCU_AN11"
+		(shape output)
+		(at 114.3 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86bf8018-59fd-48cc-9faa-3a005c166d27")
+	)
+	(hierarchical_label "AN4"
+		(shape input)
+		(at 152.4 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87f7236d-9dc3-4676-8551-336653094774")
+	)
+	(hierarchical_label "AN8"
+		(shape input)
+		(at 152.4 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d7ac51b-8ae4-4f61-ac22-3c8b3cd3ebdf")
+	)
+	(hierarchical_label "AN3"
+		(shape input)
+		(at 152.4 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9be3514c-8a0d-4f65-bd6c-62aca7606c7f")
+	)
+	(hierarchical_label "AN7"
+		(shape input)
+		(at 152.4 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b033e688-988e-4f67-b573-1bf94d24f801")
+	)
+	(hierarchical_label "MCU_AN6"
+		(shape output)
+		(at 114.3 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cad770b5-7b3a-4972-970c-025e27045b52")
+	)
+	(hierarchical_label "AN11"
+		(shape input)
+		(at 152.4 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb3360f8-d576-4ca0-87ad-539fc20c5122")
+	)
+	(hierarchical_label "AN5"
+		(shape input)
+		(at 152.4 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb90fa8c-3d8f-4a5d-850c-ab7ad57a7eb6")
+	)
+	(hierarchical_label "MCU_AN4"
+		(shape output)
+		(at 114.3 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdaa9a6b-27f1-45d4-a979-f2bf8a74d758")
+	)
+	(hierarchical_label "MCU_AN1"
+		(shape output)
+		(at 114.3 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6695361-c5fe-4f51-af6c-719aff348d82")
+	)
+	(hierarchical_label "MCU_AN5"
+		(shape output)
+		(at 114.3 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfb5a065-f11d-4a36-8f54-6794c22a0a78")
+	)
+	(hierarchical_label "AN2"
+		(shape input)
+		(at 152.4 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea8fb433-5c9e-4222-b596-198974018b55")
+	)
+	(hierarchical_label "MCU_AN3"
+		(shape output)
+		(at 114.3 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2b77994-d4ff-498b-9ad1-fc1452bee64f")
+	)
+	(hierarchical_label "AN10"
+		(shape input)
+		(at 152.4 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f456d9f9-64d1-4ccf-b9b2-99b584851250")
+	)
+	(hierarchical_label "MCU_AN8"
+		(shape output)
+		(at 114.3 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f480b2e6-7d0e-4c8e-959e-f0ec821add98")
+	)
+	(hierarchical_label "AN1"
+		(shape input)
+		(at 152.4 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fad04462-4100-484a-a3aa-01d135f2f68e")
+	)
+	(sheet
+		(at 121.92 41.91)
+		(size 22.86 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ba70738-19e1-4c6c-9b7f-53a2ec850cb9")
+		(property "Sheetname" "V Divider"
+			(at 121.92 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analogInDivider.kicad_sch"
+			(at 121.92 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "U_IN" input
+			(at 144.78 43.18 0)
+			(uuid "e1b35146-15c3-4c4b-b96b-1a092a4aa37d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U_OUT" output
+			(at 121.92 43.18 180)
+			(uuid "547ddfef-0d7d-4d7b-90a5-c8214a7f381f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 80.01)
+		(size 22.86 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "299fac73-51ba-45eb-95c6-17afc09a7e42")
+		(property "Sheetname" "V Divider5"
+			(at 121.92 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analogInDivider.kicad_sch"
+			(at 121.92 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "U_IN" input
+			(at 144.78 81.28 0)
+			(uuid "b30ba1d7-939a-419d-a806-f0549d46c59d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U_OUT" output
+			(at 121.92 81.28 180)
+			(uuid "1daa0b41-a6df-4048-ab9b-7eaf7d9d8d1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 64.77)
+		(size 22.86 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51f1308e-4f4c-43a7-aa1c-b503855ce8ca")
+		(property "Sheetname" "V Divider3"
+			(at 121.92 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analogInDivider.kicad_sch"
+			(at 121.92 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "U_IN" input
+			(at 144.78 66.04 0)
+			(uuid "01ffb748-faaa-4f13-a856-d07b97ed3738")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U_OUT" output
+			(at 121.92 66.04 180)
+			(uuid "a365de90-fe1a-4955-96b4-7ff28cf27eb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 49.53)
+		(size 22.86 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5734a972-57e8-4c9e-9ee2-bf4e96c9ca49")
+		(property "Sheetname" "V Divider1"
+			(at 121.92 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analogInDivider.kicad_sch"
+			(at 121.92 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "U_IN" input
+			(at 144.78 50.8 0)
+			(uuid "ac59e48e-0482-470a-a684-ad07d76e1eda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U_OUT" output
+			(at 121.92 50.8 180)
+			(uuid "9bd0f4c9-1864-435a-b997-14dd5bad4a1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 118.11)
+		(size 22.86 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "738423dd-3a07-4853-9cb3-2a956c8095a6")
+		(property "Sheetname" "V Divider10"
+			(at 121.92 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analogInDivider.kicad_sch"
+			(at 121.92 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "U_IN" input
+			(at 144.78 119.38 0)
+			(uuid "5d04a261-7bcf-4396-8506-4e75e0a29edf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U_OUT" output
+			(at 121.92 119.38 180)
+			(uuid "e36e491d-cce3-4e54-a4d1-3f34114189cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 95.25)
+		(size 22.86 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d09007a-5b27-43b1-9d48-89f036d22fac")
+		(property "Sheetname" "V Divider7"
+			(at 121.92 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analogInDivider.kicad_sch"
+			(at 121.92 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "U_IN" input
+			(at 144.78 96.52 0)
+			(uuid "f0e34f4e-4089-48c9-aeea-fe1f73a35e50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U_OUT" output
+			(at 121.92 96.52 180)
+			(uuid "87128761-a4dc-4b93-a084-ffc24ec632e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 87.63)
+		(size 22.86 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be0bc122-f6c9-4bb5-8870-f6d6b68f9d6a")
+		(property "Sheetname" "V Divider6"
+			(at 121.92 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analogInDivider.kicad_sch"
+			(at 121.92 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "U_IN" input
+			(at 144.78 88.9 0)
+			(uuid "b8635536-c6f5-402f-a8ce-3841d26256e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U_OUT" output
+			(at 121.92 88.9 180)
+			(uuid "72673137-754f-42da-80b8-cfec32510f6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 57.15)
+		(size 22.86 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bfc9d762-b060-420c-9640-4d11455f8c63")
+		(property "Sheetname" "V Divider2"
+			(at 121.92 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analogInDivider.kicad_sch"
+			(at 121.92 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "U_IN" input
+			(at 144.78 58.42 0)
+			(uuid "bbdc39a3-e912-444c-a02c-7cdd198bf893")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U_OUT" output
+			(at 121.92 58.42 180)
+			(uuid "da5b80e7-181b-4336-a5a9-730054358191")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 102.87)
+		(size 22.86 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3ccc198-0fa0-4994-97e1-ecc479aa1af1")
+		(property "Sheetname" "V Divider8"
+			(at 121.92 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analogInDivider.kicad_sch"
+			(at 121.92 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "U_IN" input
+			(at 144.78 104.14 0)
+			(uuid "251482f8-8e87-4e02-bfba-a725cb45ddf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U_OUT" output
+			(at 121.92 104.14 180)
+			(uuid "cc7b5750-d9cf-4c69-b05c-9c16a5d66f1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 72.39)
+		(size 22.86 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e42d14d6-949a-49a7-a63d-163fe7826dd0")
+		(property "Sheetname" "V Divider4"
+			(at 121.92 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analogInDivider.kicad_sch"
+			(at 121.92 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "U_IN" input
+			(at 144.78 73.66 0)
+			(uuid "192170ff-3858-4d26-9535-2f4748a2c03a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U_OUT" output
+			(at 121.92 73.66 180)
+			(uuid "d07d3733-a82c-4124-b351-0f1a5582d80c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 110.49)
+		(size 22.86 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee48feb7-f465-4d5c-b160-f4fe921efa2b")
+		(property "Sheetname" "V Divider9"
+			(at 121.92 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analogInDivider.kicad_sch"
+			(at 121.92 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "U_IN" input
+			(at 144.78 111.76 0)
+			(uuid "f142cbc0-83bf-48a0-b5cc-d74195a7bf8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U_OUT" output
+			(at 121.92 111.76 180)
+			(uuid "c24518ed-f483-4157-bfb2-b0708d288ffc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/d6b5e708-7140-4f02-bc93-f8e164db9146"
+					(page "28")
+				)
+			)
+		)
+	)
+)
