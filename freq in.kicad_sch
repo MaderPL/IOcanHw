@@ -1909,7 +1909,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 71.12) (xy 78.74 66.04)
+			(xy 78.74 69.85) (xy 78.74 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2039,7 +2039,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 78.74) (xy 78.74 81.28)
+			(xy 78.74 77.47) (xy 78.74 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3566,7 +3566,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 78.74 74.93 0)
+		(at 78.74 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3576,7 +3576,7 @@
 		(dnp no)
 		(uuid "39608767-5440-4f6b-86bc-a1cf3320ceef")
 		(property "Reference" "C64"
-			(at 71.12 73.406 0)
+			(at 71.12 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3587,7 +3587,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 71.12 75.946 0)
+			(at 71.12 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3598,7 +3598,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 79.7052 78.74 0)
+			(at 79.7052 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3609,7 +3609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 74.93 0)
+			(at 78.74 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3620,7 +3620,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 78.74 74.93 0)
+			(at 78.74 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

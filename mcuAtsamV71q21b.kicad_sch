@@ -3966,276 +3966,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:USBLC6-2SC6Y"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 29.21 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "USBLC6-2SC6Y"
-				(at 29.21 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT95P280X145-6N"
-				(at 29.21 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2sc6y.pdf"
-				(at 29.21 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Low Cap. ESD Protection Auto SOT-23-6 STMicroelectronics USBLC6-2SC6Y, Dual Uni-Directional TVS Diode Array, 6-Pin SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.45"
-				(at 29.21 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "STMicroelectronics"
-				(at 29.21 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "USBLC6-2SC6Y"
-				(at 29.21 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "511-USBLC6-2SC6Y"
-				(at 29.21 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/USBLC6-2SC6Y?qs=gNDSiZmRJS%2FOgDexvXkdow%3D%3D"
-				(at 29.21 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" "USBLC6-2SC6Y"
-				(at 29.21 -894.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/usblc6-2sc6y/stmicroelectronics?utm_currency=USD&region=nac"
-				(at 29.21 -994.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "USBLC6-2SC6Y_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 27.94 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "I/O1_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "I/O2_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -5.08 180)
-					(length 5.08)
-					(name "I/O2_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -2.54 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 0 180)
-					(length 5.08)
-					(name "I/O1_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -5180,6 +4910,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 190.5) (xy 35.56 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7b1201-6f88-40c4-8b19-6a85cea58281")
+	)
+	(wire
+		(pts
 			(xy 163.83 238.76) (xy 163.83 247.65)
 		)
 		(stroke
@@ -5280,6 +5020,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 162.56) (xy 149.86 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c7175f-b941-46e8-86ff-f859f14eef03")
+	)
+	(wire
+		(pts
 			(xy 157.48 24.13) (xy 163.83 24.13)
 		)
 		(stroke
@@ -5297,16 +5047,6 @@
 			(type default)
 		)
 		(uuid "3b4ee5d8-7945-4522-9a16-c8905b446f55")
-	)
-	(wire
-		(pts
-			(xy 77.47 193.04) (xy 81.28 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c651e11-7632-4e66-80bd-e88c8488429e")
 	)
 	(wire
 		(pts
@@ -5427,6 +5167,16 @@
 			(type default)
 		)
 		(uuid "55dce979-36db-4777-95a6-b2501a367f67")
+	)
+	(wire
+		(pts
+			(xy 80.01 172.72) (xy 88.9 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f6dbbb-6bfc-4e5c-8994-85c85ce4df45")
 	)
 	(wire
 		(pts
@@ -5750,16 +5500,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 193.04) (xy 35.56 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dbd9b80-24d6-4574-b1e4-c58825e7846c")
-	)
-	(wire
-		(pts
 			(xy 66.04 111.76) (xy 88.9 111.76)
 		)
 		(stroke
@@ -5830,16 +5570,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 190.5) (xy 43.18 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f2d5fcc-5dda-4f94-8054-96dc66b2eaa1")
-	)
-	(wire
-		(pts
 			(xy 129.54 24.13) (xy 129.54 43.18)
 		)
 		(stroke
@@ -5847,6 +5577,16 @@
 			(type default)
 		)
 		(uuid "921e5857-114b-401d-916b-e7dfc2a944f2")
+	)
+	(wire
+		(pts
+			(xy 149.86 165.1) (xy 154.94 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f5dd9b-75cc-4608-84cb-e699762a7a54")
 	)
 	(wire
 		(pts
@@ -5920,7 +5660,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 193.04) (xy 44.45 193.04)
+			(xy 40.64 190.5) (xy 88.9 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5970,7 +5710,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 187.96) (xy 44.45 187.96)
+			(xy 40.64 187.96) (xy 88.9 187.96)
 		)
 		(stroke
 			(width 0)
@@ -5997,26 +5737,6 @@
 			(type default)
 		)
 		(uuid "acb7ee97-51b0-4e84-8819-764a6512d69d")
-	)
-	(wire
-		(pts
-			(xy 81.28 190.5) (xy 88.9 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adae49a9-da3f-41c3-ab79-c1032fd8d6f3")
-	)
-	(wire
-		(pts
-			(xy 43.18 190.5) (xy 43.18 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ade739af-36dc-41af-94fa-ec34ce5d9e4f")
 	)
 	(wire
 		(pts
@@ -6050,6 +5770,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 99.06) (xy 162.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0326858-a975-485a-82a9-7bfb20009a6d")
+	)
+	(wire
+		(pts
 			(xy 138.43 24.13) (xy 144.78 24.13)
 		)
 		(stroke
@@ -6057,16 +5787,6 @@
 			(type default)
 		)
 		(uuid "b1fbda63-03a1-4802-be10-59330e1e2699")
-	)
-	(wire
-		(pts
-			(xy 81.28 193.04) (xy 81.28 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2cf70a8-a6c5-422e-9e47-74e5cf2a3613")
 	)
 	(wire
 		(pts
@@ -6257,16 +5977,6 @@
 			(type default)
 		)
 		(uuid "cb167fa7-a2c0-4d9b-853a-c84e45043bd9")
-	)
-	(wire
-		(pts
-			(xy 77.47 187.96) (xy 88.9 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc67e779-ba1f-4b37-90f3-63646f8a7b09")
 	)
 	(wire
 		(pts
@@ -6978,6 +6688,17 @@
 		)
 		(uuid "fda5a528-69f4-4fcf-a697-dc6a79f8eb2c")
 	)
+	(hierarchical_label "ENABLE.DIGITAL_OUT"
+		(shape output)
+		(at 80.01 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bc2cd9d-6ccd-49d4-a5de-46d0b9631ef7")
+	)
 	(hierarchical_label "ENABLE.3.3V"
 		(shape output)
 		(at 165.1 109.22 0)
@@ -7032,6 +6753,17 @@
 			(justify left)
 		)
 		(uuid "1780ccf3-3db0-4a82-a35a-55f09a17871a")
+	)
+	(hierarchical_label "KL30B.IDL"
+		(shape output)
+		(at 162.56 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "193e4ac8-29b8-484b-9e8b-3fe4987f9c4d")
 	)
 	(hierarchical_label "MCU.AN5"
 		(shape input)
@@ -7153,6 +6885,17 @@
 			(justify left)
 		)
 		(uuid "5477e323-67b9-4ec4-b97f-2c4c9ee515d2")
+	)
+	(hierarchical_label "KL30B.IN"
+		(shape output)
+		(at 166.37 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5862a6bc-d090-43a5-b210-bc176e4a4ad9")
 	)
 	(hierarchical_label "CAN3.STBY"
 		(shape output)
@@ -7341,6 +7084,17 @@
 		)
 		(uuid "7ebca7a3-fcf3-4980-9476-fab5e50d3401")
 	)
+	(hierarchical_label "KL30B.DEN"
+		(shape output)
+		(at 154.94 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88ec8e25-a67d-42fa-a6e3-14d54522caed")
+	)
 	(hierarchical_label "CAN2.STBY"
 		(shape output)
 		(at 171.45 60.96 0)
@@ -7453,7 +7207,7 @@
 	)
 	(hierarchical_label "USB.D-"
 		(shape bidirectional)
-		(at 33.02 193.04 180)
+		(at 33.02 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10353,84 +10107,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 43.18 200.66 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bae583e1-51a9-4534-a8ad-c67b6600be87")
-		(property "Reference" "#PWR026"
-			(at 43.18 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSS"
-			(at 43.18 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 43.18 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97added7-8467-490d-a0de-dcfb6b27b706")
-		)
-		(instances
-			(project "IOcan"
-				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/49e52cb0-2508-497c-ae84-c04142a4ff5d"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 189.23 27.94 0)
 		(unit 1)
@@ -10993,7 +10669,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 38.1 193.04 270)
+		(at 38.1 190.5 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11003,7 +10679,7 @@
 		(dnp no)
 		(uuid "e4c3a571-4fdf-445c-b94b-06e3fa402769")
 		(property "Reference" "R17"
-			(at 37.846 195.326 90)
+			(at 37.846 192.786 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11013,7 +10689,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 38.1 197.358 90)
+			(at 38.1 194.818 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11023,7 +10699,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 38.1 193.04 0)
+			(at 38.1 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11034,7 +10710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 193.04 0)
+			(at 38.1 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11045,7 +10721,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 38.1 193.04 0)
+			(at 38.1 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11810,184 +11486,6 @@
 			(project "IOcan"
 				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/49e52cb0-2508-497c-ae84-c04142a4ff5d"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:USBLC6-2SC6Y")
-		(at 44.45 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc86eecc-f499-4309-99b3-ee8ad98fe6ff")
-		(property "Reference" "D1"
-			(at 60.96 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USBLC6-2SC6Y"
-			(at 60.96 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-6N"
-			(at 73.66 282.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2sc6y.pdf"
-			(at 73.66 382.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Low Cap. ESD Protection Auto SOT-23-6 STMicroelectronics USBLC6-2SC6Y, Dual Uni-Directional TVS Diode Array, 6-Pin SOT-23"
-			(at 44.45 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.45"
-			(at 73.66 582.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 73.66 682.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "USBLC6-2SC6Y"
-			(at 73.66 782.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "511-USBLC6-2SC6Y"
-			(at 73.66 882.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/USBLC6-2SC6Y?qs=gNDSiZmRJS%2FOgDexvXkdow%3D%3D"
-			(at 73.66 982.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "USBLC6-2SC6Y"
-			(at 73.66 1082.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/usblc6-2sc6y/stmicroelectronics?utm_currency=USD&region=nac"
-			(at 73.66 1182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "5cfdc16f-33cf-45ed-b31e-2ac942f4d52b")
-		)
-		(pin "6"
-			(uuid "5d6ffd05-4908-406b-98c2-7206ed2e0dcd")
-		)
-		(pin "2"
-			(uuid "2edfca45-25e6-4ef8-8f86-a90c95933ca8")
-		)
-		(pin "3"
-			(uuid "7d6a4c7c-598a-4508-bb98-801d19387836")
-		)
-		(pin "4"
-			(uuid "1163f8f2-f93b-44be-97a1-e52e15f570a1")
-		)
-		(pin "5"
-			(uuid "e5478677-bfc9-42d1-84ae-ec11f5145eac")
-		)
-		(instances
-			(project "IOcan"
-				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/49e52cb0-2508-497c-ae84-c04142a4ff5d"
-					(reference "D1")
 					(unit 1)
 				)
 			)
