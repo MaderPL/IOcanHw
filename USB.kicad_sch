@@ -1461,12 +1461,6 @@
 		(uuid "408d5ce6-9739-467d-ba8e-c352c53faa90")
 	)
 	(junction
-		(at 137.16 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48b75305-89ba-43d6-ab13-b721e698a048")
-	)
-	(junction
 		(at 254 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1483,12 +1477,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "579d88ec-fc87-40cc-b9e6-26c25d859dbf")
-	)
-	(junction
-		(at 137.16 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fb8a13e-92a1-4920-aef9-faa274859278")
 	)
 	(junction
 		(at 167.64 55.88)
@@ -1554,16 +1542,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 137.16 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a2cee33-f621-4aff-bcf8-2182ae6686e6")
-	)
-	(wire
-		(pts
 			(xy 168.91 106.68) (xy 168.91 109.22)
 		)
 		(stroke
@@ -1604,7 +1582,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 83.82) (xy 139.7 83.82)
+			(xy 121.92 83.82) (xy 139.7 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1641,16 +1619,6 @@
 			(type default)
 		)
 		(uuid "3ffa5b18-35ba-40c1-a012-d39c75c42475")
-	)
-	(wire
-		(pts
-			(xy 137.16 83.82) (xy 137.16 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "407f7bdc-4da8-4444-8abb-42dc89db1ea5")
 	)
 	(wire
 		(pts
@@ -1784,16 +1752,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 83.82) (xy 137.16 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "846c2ec9-8a4a-4565-97e4-ee987a071af3")
-	)
-	(wire
-		(pts
 			(xy 134.62 76.2) (xy 139.7 76.2)
 		)
 		(stroke
@@ -1834,7 +1792,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 81.28) (xy 137.16 81.28)
+			(xy 121.92 81.28) (xy 139.7 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2024,16 +1982,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 139.7 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6967aa9-46ef-4d4b-95c1-56c94306a7ae")
-	)
-	(wire
-		(pts
 			(xy 165.1 81.28) (xy 185.42 81.28)
 		)
 		(stroke
@@ -2084,7 +2032,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 68.58) (xy 137.16 81.28)
+			(xy 137.16 68.58) (xy 137.16 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2616,7 +2564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~p"
+		(property "Value" "100nF/6.3V"
 			(at 257.81 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)

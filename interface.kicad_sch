@@ -799,6 +799,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Pinout checked ok\n"
+		(exclude_from_sim no)
+		(at 198.374 170.688 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "115ac2c7-8241-4029-9a40-6bf51de8023c")
+	)
 	(junction
 		(at 165.1 86.36)
 		(diameter 0)

@@ -4518,7 +4518,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n/6.3V"
 			(at 41.91 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4994,7 +4994,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n/6.3V"
 			(at 41.91 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5158,7 +5158,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n/6.3V"
 			(at 48.26 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)

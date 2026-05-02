@@ -29,8 +29,11 @@
       "vias": true,
       "zones": true
     },
-    "visible_items": [],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_items": [
+      "grid",
+      "shapes"
+    ],
+    "visible_layers": "00000000_00000000_0fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -41,7 +44,7 @@
   },
   "meta": {
     "filename": "IOcan.kicad_prl",
-    "version": 3
+    "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [

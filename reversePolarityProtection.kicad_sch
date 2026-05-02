@@ -988,6 +988,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Checked ok"
+		(exclude_from_sim no)
+		(at 199.39 173.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c092d4d5-dd52-4f38-be82-6dfeeb96ce1b")
+	)
 	(junction
 		(at 162.56 82.55)
 		(diameter 0)

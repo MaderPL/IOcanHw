@@ -429,6 +429,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Checked ok"
+		(exclude_from_sim no)
+		(at 189.992 172.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "34e67121-a05e-4d8a-aa6b-e10260139776")
+	)
 	(junction
 		(at 144.78 88.9)
 		(diameter 0)
@@ -675,7 +685,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "36k"
 			(at 141.478 75.692 0)
 			(hide yes)
 			(show_name no)

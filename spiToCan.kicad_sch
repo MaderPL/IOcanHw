@@ -1124,6 +1124,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Checked ok"
+		(exclude_from_sim no)
+		(at 195.326 173.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0cc7f035-31c8-47ee-987a-74902babc6cc")
+	)
 	(junction
 		(at 104.14 116.84)
 		(diameter 0)
@@ -1488,7 +1498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n/6.3V"
 			(at 190.5 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1944,7 +1954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~p"
+		(property "Value" "6pF"
 			(at 121.92 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2194,7 +2204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~p"
+		(property "Value" "6pF"
 			(at 107.95 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,7 +2289,7 @@
 				)
 			)
 		)
-		(property "Value" "12MHz"
+		(property "Value" "40MHz"
 			(at 111.76 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)

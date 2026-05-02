@@ -2491,7 +2491,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n/6.3V"
 			(at 49.276 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3586,7 +3586,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n/6.3V"
 			(at 71.12 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3745,7 +3745,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220k"
 			(at 137.16 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3983,7 +3983,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220k"
 			(at 137.16 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4143,7 +4143,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220k"
 			(at 137.16 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4457,7 +4457,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220k"
 			(at 137.16 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4615,7 +4615,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n/6.3V"
 			(at 92.964 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)

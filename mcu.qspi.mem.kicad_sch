@@ -1228,7 +1228,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n/6.3V"
 			(at 161.29 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)

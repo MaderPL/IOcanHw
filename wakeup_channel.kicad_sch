@@ -1165,7 +1165,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "36k"
+		(property "Value" "56k"
 			(at 154.94 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1240,7 +1240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da74d186-749e-4dcd-b971-fcc2dc697a0f")
-		(property "Reference" "R10k"
+		(property "Reference" "R~"
 			(at 140.97 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1251,7 +1251,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "10k"
 			(at 140.97 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1304,11 +1304,11 @@
 		(instances
 			(project "IOcan"
 				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/43e1bae8-41c3-4eda-b103-a7e45a9a07cb/58d8c796-7d23-43a4-b034-5ee6a47bbde7"
-					(reference "R10k")
+					(reference "R~")
 					(unit 1)
 				)
 				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/43e1bae8-41c3-4eda-b103-a7e45a9a07cb/6cb691e5-44d7-4302-bb95-328a22eea2a7"
-					(reference "R10k1")
+					(reference "R10")
 					(unit 1)
 				)
 			)

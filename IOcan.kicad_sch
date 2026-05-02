@@ -1105,6 +1105,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 38.1) (xy 190.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb80034-c3e0-4d60-af29-b49ee1eb05fc")
+	)
+	(wire
+		(pts
 			(xy 322.58 96.52) (xy 346.71 96.52)
 		)
 		(stroke
@@ -4175,6 +4185,16 @@
 		(pin "KL30B.IN" output
 			(at 167.64 50.8 0)
 			(uuid "96a1f38c-a734-4c2f-982d-ad2ad9a7f8a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_OUT_ENABLE" input
+			(at 167.64 38.1 0)
+			(uuid "890eed70-f93b-4b51-8f10-8cb9d2346afc")
 			(effects
 				(font
 					(size 1.27 1.27)

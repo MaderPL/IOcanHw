@@ -2818,7 +2818,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "59ecd155-78b9-4dc3-996d-9aa772f94f95")
 		(property "Reference" "R35"
 			(at 59.944 97.028 90)

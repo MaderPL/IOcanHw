@@ -5,6 +5,16 @@
 	(uuid "b32a839e-40b6-4f80-93f1-3ba3fca48d99")
 	(paper "A4")
 	(lib_symbols)
+	(text "Checked ok"
+		(exclude_from_sim no)
+		(at 196.596 172.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "383a13c9-7b20-44f3-8d36-21ca36da5f27")
+	)
 	(wire
 		(pts
 			(xy 114.3 88.9) (xy 121.92 88.9)

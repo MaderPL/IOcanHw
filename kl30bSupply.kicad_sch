@@ -2437,7 +2437,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k2"
 			(at 168.402 127.508 0)
 			(hide yes)
 			(show_name no)
@@ -3845,7 +3845,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "befe9f7d-d89d-458f-8d80-7a3f844159d1")
 		(property "Reference" "R32"
 			(at 103.124 100.838 90)
@@ -4006,7 +4006,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ead1352f-5f45-463f-992a-6c9b58399c7c")
 		(property "Reference" "R31"
 			(at 138.176 100.838 90)
