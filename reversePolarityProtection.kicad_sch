@@ -5,6 +5,161 @@
 	(uuid "a5143f8c-2203-4c2e-a6e4-ee4c420183a9")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9906 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
@@ -311,7 +466,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:0685T4000-01"
+		(symbol "SamacSys_Parts:SF-1206HH25M-2"
 			(pin_names
 				(hide yes)
 			)
@@ -331,7 +486,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "0685T4000-01"
+			(property "Value" "SF-1206HH25M-2"
 				(at 13.97 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -342,7 +497,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "FUSC3216X83N"
+			(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 				(at 13.97 -96.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -354,7 +509,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "http://www.farnell.com/datasheets/2571627.pdf"
+			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SF-1206.pdf"
 				(at 13.97 -196.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -366,7 +521,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "BEL FUSE - CIRCUIT PROTECTION - 0685T4000-01 - FUSE, SMD, 4A, SLOW BLOW, 1206"
+			(property "Description" "BOURNS - CIRCUIT PROTECTION - SF-1206HH25M-2 - FUSE, SMD, 25A, SLOW BLOW, 1206"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -389,7 +544,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Name" "Bel Circuit Protection"
+			(property "Manufacturer_Name" "Bourns"
 				(at 13.97 -496.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -401,7 +556,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "0685T4000-01"
+			(property "Manufacturer_Part_Number" "SF-1206HH25M-2"
 				(at 13.97 -596.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -461,7 +616,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "0685T4000-01_1_1"
+			(symbol "SF-1206HH25M-2_1_1"
 				(rectangle
 					(start 5.08 1.27)
 					(end 12.7 -1.27)
@@ -569,7 +724,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(property "Datasheet" "https://toshiba.semicon-storage.com/info/XPH3R114MC_datasheet_en_20211006.pdf"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1042,16 +1197,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.5462 14.0462) (xy 57.2262 14.0462)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3134d8ae-3a0e-4c4b-9881-359ba4d6d0ff")
-	)
-	(wire
-		(pts
 			(xy 162.56 82.55) (xy 168.91 82.55)
 		)
 		(stroke
@@ -1082,16 +1227,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.2262 14.0462) (xy 57.2262 0.0762)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2281086-7101-4fae-a6a6-be3b70e12279")
-	)
-	(wire
-		(pts
 			(xy 154.94 90.17) (xy 154.94 96.52)
 		)
 		(stroke
@@ -1099,16 +1234,6 @@
 			(type default)
 		)
 		(uuid "bafdca75-6a86-4df2-beb2-edc47ece5390")
-	)
-	(wire
-		(pts
-			(xy 57.2262 0.0762) (xy 0.0762 0.0762)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9b08a97-86d5-4203-a48f-3381e01e2108")
 	)
 	(wire
 		(pts
@@ -1163,7 +1288,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d51c9ab-9a9f-41f8-886d-50600b985ae4")
-		(property "Reference" "Z?"
+		(property "Reference" "Z1"
 			(at 162.56 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1311,7 +1436,7 @@
 		(instances
 			(project "IOcan"
 				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/57621f42-aed7-4d46-a5ea-c12a1f245285"
-					(reference "Z?")
+					(reference "Z1")
 					(unit 1)
 				)
 			)
@@ -1396,7 +1521,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:0685T4000-01")
+		(lib_id "SamacSys_Parts:SF-1206HH25M-2")
 		(at 125.73 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -1417,7 +1542,7 @@
 				)
 			)
 		)
-		(property "Value" "0685T4000-01"
+		(property "Value" "SF-1206HH25M-2"
 			(at 134.62 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1427,7 +1552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSC3216X83N"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 139.7 178.74 0)
 			(hide yes)
 			(show_name no)
@@ -1439,7 +1564,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.farnell.com/datasheets/2571627.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SF-1206.pdf"
 			(at 139.7 278.74 0)
 			(hide yes)
 			(show_name no)
@@ -1451,7 +1576,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "BEL FUSE - CIRCUIT PROTECTION - 0685T4000-01 - FUSE, SMD, 4A, SLOW BLOW, 1206"
+		(property "Description" "BOURNS - CIRCUIT PROTECTION - SF-1206HH25M-2 - FUSE, SMD, 25A, SLOW BLOW, 1206"
 			(at 125.73 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1474,7 +1599,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Bel Circuit Protection"
+		(property "Manufacturer_Name" "Bourns"
 			(at 139.7 578.74 0)
 			(hide yes)
 			(show_name no)
@@ -1486,7 +1611,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0685T4000-01"
+		(property "Manufacturer_Part_Number" "SF-1206HH25M-2"
 			(at 139.7 678.74 0)
 			(hide yes)
 			(show_name no)
@@ -1686,7 +1811,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/XPH3R114MC_datasheet_en_20211006.pdf"
 			(at 167.64 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1842,5 +1967,433 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 107.95 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567890")
+		(property "Reference" "TVS1"
+			(at 107.95 84.455 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPSMF4L20A"
+			(at 109.855 84.455 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123FL"
+			(at 107.95 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=f82cc96d-cae8-4a21-a4d0-cae17ef0d267&filename=littelfuse-tvs-diode-tpsmf4l-datasheet.pdf"
+			(at 107.95 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W TVS diode, 20V standoff, 32.4V clamp, SOD-123FL, AEC-Q101"
+			(at 107.95 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Littelfuse"
+			(at 107.95 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPSMF4L20A"
+			(at 107.95 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1c2d3e4-f5a6-7890-bcde-fa2345678901")
+		)
+		(pin "2"
+			(uuid "c2d3e4f5-a6b7-8901-cdef-ab3456789012")
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/57621f42-aed7-4d46-a5ea-c12a1f245285"
+					(reference "TVS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3e4f5a6-b7c8-9012-defa-bc4567890123")
+		(property "Reference" "C1"
+			(at 114.3 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF/50V X7R"
+			(at 114.3 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 113.03 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7uF 50V X7R MLCC 1210, input decoupling"
+			(at 113.03 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
+			(at 113.03 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM32ER71H475KA88L"
+			(at 113.03 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4f5a6b7-c8d9-0123-efab-cd5678901234")
+		)
+		(pin "2"
+			(uuid "f5a6b7c8-d9e0-1234-fabc-de6789012345")
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/57621f42-aed7-4d46-a5ea-c12a1f245285"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 107.95 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a6b7c8d9-e0f1-2345-abcd-ef7890123456")
+		(property "Reference" "#PWR017"
+			(at 107.95 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 107.95 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 107.95 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7c8d9e0-f1a2-3456-bcde-f89012345678")
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/57621f42-aed7-4d46-a5ea-c12a1f245285"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 113.03 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8d9e0f1-a2b3-4567-cdef-a90123456789")
+		(property "Reference" "#PWR018"
+			(at 113.03 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 113.03 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 113.03 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9e0f1a2-b3c4-5678-defa-b01234567890")
+		)
+		(instances
+			(project "IOcan"
+				(path "/6f45ac2a-5758-484d-9640-5d55da88e919/57621f42-aed7-4d46-a5ea-c12a1f245285"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(junction
+		(at 107.95 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0f1a2b3-c4d5-6789-efab-c12345678901")
+	)
+	(junction
+		(at 113.03 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1a2b3c4-d5e6-7890-fabc-d23456789012")
+	)
+	(junction
+		(at 123.19 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2b3c4d5-e6f7-8901-abcd-e34567890123")
+	)
+	(wire
+		(pts
+			(xy 107.95 82.55) (xy 123.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c4d5e6-f7a8-9012-bcde-f45678901234")
+	)
+	(wire
+		(pts
+			(xy 107.95 82.55) (xy 107.95 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d5e6f7-a8b9-0123-cdef-a56789012345")
+	)
+	(wire
+		(pts
+			(xy 107.95 93.98) (xy 107.95 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e6f7a8-b9c0-1234-defa-b67890123456")
+	)
+	(wire
+		(pts
+			(xy 113.03 82.55) (xy 113.03 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f7a8b9-c0d1-2345-efab-c78901234567")
+	)
+	(wire
+		(pts
+			(xy 113.03 93.98) (xy 113.03 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a8b9c0-d1e2-3456-fabc-d89012345678")
 	)
 )
